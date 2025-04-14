@@ -1,0 +1,51 @@
+/* src/components/Sidebar/Sidebar.css */
+.sidebar {
+  width: 200px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  background-color: #343744; /* 设置背景颜色 */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.sidebar-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px; /* 设置头部高度 */
+  background-color: #343744; /* 设置头部背景颜色 */
+}
+
+.sidebar .menu {
+  width: 100%;
+  background-color: #343744; /* 设置菜单背景颜色 */
+}
+
+.sidebar .menu .ant-menu-item {
+  background-color: #343744; /* 设置菜单项背景颜色 */
+  color: #fff; /* 设置菜单项文字颜色 */
+}
+
+.sidebar .menu .ant-menu-item-selected {
+  background-color: #4a4d5c; /* 设置选中菜单项背景颜色 */
+}
+
+.sidebar .avatar {
+  padding: 16px;
+}
+
+.options {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.settings{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+

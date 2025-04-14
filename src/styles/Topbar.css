@@ -1,0 +1,12 @@
+/* src/components/Topbar/Topbar.css */
+.topbar {
+  /*width: 100%; !* 设置宽度为100% *!*/
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 16px;
+  background-color: #fff;
+  border-bottom: 1px solid #e8e8e8;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.09);
+}

@@ -1,0 +1,37 @@
+/* src/components/CommonTable/CommonTable.css */
+.common-table-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 15px;
+}
+
+.common-table-controls {
+  margin-bottom: 16px;
+}
+
+.common-table {
+  flex: 1;
+  /*width: 100%;*/
+  overflow-y: auto;
+  border: 1px solid #d9d9d9; /* 添加边框 */
+  border-radius: 4px; /* 可选：添加圆角 */
+}
+
+.common-pagination {
+  display: flex;          /* 启用 Flexbox 布局 */
+  margin-top: 16px;
+  text-align: center;
+  justify-content: center; /* 水平居中 */
+  align-items: center;     /* 垂直居中 */
+}
+
+.common-table .ant-table-tbody td span {
+  cursor: pointer;
+  color: #595b5d; /* 设置操作文字颜色 */
+}
+
+.common-table .ant-table-tbody td span:hover {
+  text-decoration: underline; /* 设置操作文字悬停效果 */
+}
+
