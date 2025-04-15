@@ -25,7 +25,7 @@ export const getBoxes = async (): Promise<Box[]> => {
     }
 };
 
-// 创建箱子
+//创建箱子
 export const createBox = async (boxData: Omit<Box, 'id'>): Promise<Box> => {
     try {
         const response = await axios.post(API_BASE_URL, boxData);
